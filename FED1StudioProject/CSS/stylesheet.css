@@ -1,37 +1,61 @@
-﻿header h1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 26px;
-}
+﻿/*
+    Logo green: #72A147
+    font-family: 'Maven Pro', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+
+
 
 header p {
-    font-size:16px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:12px;
 }
 
-h2 {
-    font-size: 30px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+header h1 {
+    font-size: 16px;
 }
 
 body {
     background-color: white;
+    font-family: 'Maven Pro', sans-serif;
 }
 
-.sectionTitles {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
+.selected {
+    background-color: #E0E0E0;
+    color: white;
 }
 
-footer {
-    font-family:'Arial Rounded MT';
-    font-size: 12px;
+/*Nav styling*/
+nav ul {
+    list-style: none;
+    text-align: left;
 }
-
-#chooseUsHeading {
-    font-size: 25px;
+nav li {
+    display: inline-block;
 }
+nav ul li a {
+    display: block;
+    padding: .4em;
+}
+nav a:hover, a:active, a:focus {
+    text-decoration:none;
+}
+nav li:hover {
+    background-color: #72A147;
+    text-decoration:underline;
+}
+a:hover, a:active, a:focus {
+    color:white;
+    text-decoration:underline;
 
-.contactInfo {
-    font-size:20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a {
+    color:#000000
+}
+a {
+    text-decoration:none;
+}
+header img {
+    height: 75px;
+    width: 75px;
 }
