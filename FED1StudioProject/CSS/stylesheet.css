@@ -132,3 +132,12 @@ tr:nth-child(odd) {
 .middleAligned {
     text-align: center;
 }
+
+.contactInfo  {
+    text-align: center;
+}
+
+.contactInfo p {
+    border: 1px solid;
+    vertical-align:middle;
+}
