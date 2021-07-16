@@ -6,7 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
 
 
-
+h2,h3 {
+    color: #72A147;
+    text-decoration:underline;
+}
 header p {
     font-size: 12px;
 }
@@ -140,4 +143,20 @@ tr:nth-child(odd) {
 .contactInfo p {
     border: 1px solid;
     vertical-align:middle;
+}
+
+.teams img {
+    height: 150px;
+    width: 100px;
+    float: left;
+    border: 2px solid;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 50px;
+}
+section aside {
+    float: right;
+    border: solid;
 }
