@@ -8,18 +8,8 @@
 body {
     font-family: 'Maven Pro', sans-serif;
 }
-/*Styling for social media logos*/
-header aside, footer aside {
-    width: 5%;
-    float: right;
-    margin: 5px 10px 5px 5px;
-}
 
-    header aside a, footer aside a {
-        color: black;
-        text-decoration: none;
-    }
-/*Styling for index.html*/
+/*#region Styling for index.html*/
 #indexLeft {
     margin: 0 auto;
     width: 70%;
@@ -31,11 +21,11 @@ article#aboutUs {
     padding-top: 100px;
 }
 
-article#aboutUs img {
-    float: left;
-    height: 200px;
-    margin-left: 130px;
-}
+    article#aboutUs img {
+        float: left;
+        height: 200px;
+        margin-left: 130px;
+    }
 
 #indexLeft img {
     float: left;
@@ -50,19 +40,18 @@ section article#aboutUs h2, section article#aboutUs p {
     margin: 0 auto;
 }
 
-    section article#aboutUs h2 {
-        text-align: left;
-        width: 35%;
-        text-decoration: underline;
-        margin-bottom: 15px;
-    }
+section article#aboutUs h2 {
+    text-align: left;
+    width: 35%;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
 
-    section article#aboutUs p {
-        
-        text-align: left;
-        margin-right: 15px;
-        padding-left: 50px;
-    }
+section article#aboutUs p {
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 50px;
+}
 
 
 section article#companyInfo h2 {
@@ -121,7 +110,8 @@ section article#companyInfo h2 {
 .clear {
     clear: both;
 }
-/*Styling for navigation bar*/
+/*#endregion*/
+/*#region Styling for navigation bar*/
 nav ul li a:hover {
     color: #fff;
     background-color: #72a147;
@@ -139,7 +129,7 @@ nav ul li {
     nav ul li a {
         text-decoration: none;
         color: #000;
-        padding: 15px;
+        margin: 5px 10px 5px 10px
     }
 
 nav {
@@ -148,7 +138,23 @@ nav {
     width: 70%;
     margin: 0 auto;
 }
-/*Styling for header*/
+/*#endregion*/
+/*#region Styling for header*/
+header aside, footer aside {
+    width: 5%;
+    float: right;
+    margin: 5px 10px 5px 5px;
+}
+.selected {
+    background-color: #ddd;
+    padding: 5px 0;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+    header aside a, footer aside a {
+        color: black;
+        text-decoration: none;
+    }
 header img {
     width: 8%;
     float: left;
@@ -169,8 +175,8 @@ header {
     header h1 {
         margin-top: 40px;
     }
-
-/*Footer styling*/
+/*#endregion*/
+/*#region Footer styling*/
 footer {
     border: 1px solid;
     width: 70%;
@@ -181,3 +187,89 @@ footer {
     footer p {
         text-align: left;
     }
+/*#endregion*/
+/*#region class tiles*/
+
+.subjectClassTop {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#fixAssetClass:hover, #accPayableClass:hover, #cashClass:hover, #taxClass:hover, #auditClass:hover, #budgetingClass:hover {
+    border: 5px solid;
+}
+
+#taxClass, #auditClass, #budgetingClass {
+    border: 1px solid;
+    width: 25%;
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+    height: 550px;
+    vertical-align: top;
+}
+
+
+    #fixAssetClass p, #accPayableClass p, #cashClass p, #taxClass p, #auditClass p, #budgetingClass p {
+        width: 90%;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px;
+    }
+
+    #fixAssetClass h3, #accPayableClass h3, #cashClass h3, #taxClass h3, #auditClass h3, #budgetingClass h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+#accPayableClass h3 {
+    margin-top: 10px;
+    margin-bottom: 12px
+}
+
+#accPayableClass p {
+    margin-top: 0px;
+}
+
+#taxClass img, #auditClass img, #budgetingClass img {
+    height: 218.5px;
+}
+
+#cashClass img, #fixAssetClass img, #accPayableClass img {
+    height: 218.5px;
+}
+
+.middleAligned {
+    text-align: center;
+    width: 70%;
+    margin: 15px auto;
+    margin-top: 120px;
+}
+
+section article h2.middleAligned {
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+#cashClass, #fixAssetClass, #accPayableClass {
+    border: 1px solid;
+    width: 25%;
+    display: inline-block;
+    margin: 20px;
+    ;
+    text-align: left;
+    height: 550px;
+    vertical-align: top;
+}
+
+.subjectClassBottom {
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    text-align: center;
+    margin-top: 50px;
+}
+/*#endregion*/
+ 

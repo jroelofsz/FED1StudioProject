@@ -70,7 +70,12 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="CSS\stylesheet.css" />
+    <Content Include="Images\accPayable.jpg" />
+    <Content Include="Images\audit.jpg" />
+    <Content Include="Images\buget.jpg" />
     <Content Include="Images\calculator_image.jpg" />
+    <Content Include="Images\cashManage.jpg" />
+    <Content Include="Images\fixAsset.jpg" />
     <Content Include="Images\index_image.jpg" />
     <Content Include="Images\portait10.jpg" />
     <Content Include="Images\portait11.jpg" />
@@ -84,6 +89,7 @@
     <Content Include="Images\portrait6.jpg" />
     <Content Include="Images\portrait7.jpg" />
     <Content Include="Images\portrait8.jpg" />
+    <Content Include="Images\taxClass2.jpg" />
     <Content Include="Images\WestGateLogo.jpg" />
     <Content Include="Images\writing_on_paper.jpg" />
     <Content Include="index.html" />
