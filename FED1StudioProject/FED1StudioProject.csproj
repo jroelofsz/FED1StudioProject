@@ -70,8 +70,8 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="CSS\stylesheet.css" />
-    <Content Include="Images\facebook.jpg" />
-    <Content Include="Images\linkedin.png" />
+    <Content Include="Images\calculator_image.jpg" />
+    <Content Include="Images\index_image.jpg" />
     <Content Include="Images\portait10.jpg" />
     <Content Include="Images\portait11.jpg" />
     <Content Include="Images\portait3.jpg" />
@@ -84,8 +84,8 @@
     <Content Include="Images\portrait6.jpg" />
     <Content Include="Images\portrait7.jpg" />
     <Content Include="Images\portrait8.jpg" />
-    <Content Include="Images\twitter.png" />
     <Content Include="Images\WestGateLogo.jpg" />
+    <Content Include="Images\writing_on_paper.jpg" />
     <Content Include="index.html" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />

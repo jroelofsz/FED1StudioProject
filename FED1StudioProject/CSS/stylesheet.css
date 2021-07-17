@@ -5,20 +5,121 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
 
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
 /*Styling for social media logos*/
 header aside, footer aside {
     width: 5%;
     float: right;
     margin: 5px 10px 5px 5px;
 }
-header aside a, footer aside a {
-    color: black;
-    text-decoration: none;
-}
+
+    header aside a, footer aside a {
+        color: black;
+        text-decoration: none;
+    }
 /*Styling for index.html*/
-.indexLeftColumn {
-    width: 93%;
-    margin-left: 2%;
+#indexLeft {
+    margin: 0 auto;
+    width: 70%;
+}
+
+article#aboutUs {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+article#aboutUs img {
+    float: left;
+    height: 200px;
+    margin-left: 130px;
+}
+
+#indexLeft img {
+    float: left;
+    width: 50%;
+    border: .5px solid;
+    border-collapse: collapse;
+}
+
+section article#aboutUs h2, section article#aboutUs p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+    section article#aboutUs h2 {
+        text-align: left;
+        width: 35%;
+        text-decoration: underline;
+        margin-bottom: 15px;
+    }
+
+    section article#aboutUs p {
+        
+        text-align: left;
+        margin-right: 15px;
+        padding-left: 50px;
+    }
+
+
+section article#companyInfo h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 110px;
+}
+
+#indexRight {
+    margin: 0 auto;
+    width: 70%;
+}
+
+    #indexRight img {
+        float: right;
+        width: 50%;
+        border: .5px solid;
+        border-collapse: collapse;
+        margin-left: 1px;
+        border-bottom: 0;
+    }
+
+    #indexRight h3, #indexRight p {
+        padding: 150px 830px 0px 40px;
+    }
+
+    #indexRight h3 {
+        padding-bottom: 0;
+    }
+
+    #indexRight p {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+
+#indexLeft h3 {
+    /*padding-bottom: 0px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 42.7em;*/
+    padding: 100px 50px 0 42.7em
+}
+
+#indexLeft p {
+    /*padding-top: 15px;
+    padding-bottom:25px;
+    padding-right: 50px;
+    padding-left: 50em;*/
+    padding: 15px 50px 25px 50em;
+}
+
+.clear {
+    clear: both;
 }
 /*Styling for navigation bar*/
 nav ul li a:hover {
@@ -26,28 +127,57 @@ nav ul li a:hover {
     background-color: #72a147;
     padding: 5px;
     margin: 0 5px 0 5px;
-    text-decoration:underline;
+    text-decoration: underline;
+    border-radius: 10px;
 }
-nav ul li  {
+
+nav ul li {
     display: inline-block;
     font-size: 22px;
 }
-nav ul li a {
-    text-decoration:none;
-    color: #000;
+
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+        padding: 15px;
+    }
+
+nav {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
 }
 /*Styling for header*/
 header img {
-    width: 10%;
+    width: 8%;
     float: left;
 }
+
 header {
     border: 1px solid;
+    width: 70%;
+    margin: 0 auto;
 }
-header h1, header p {
-    margin-bottom: 5px;
-    text-align: left;
+
+    header h1, header p {
+        margin-bottom: 5px;
+        text-align: left;
+        margin-left: 150px;
+    }
+
+    header h1 {
+        margin-top: 40px;
+    }
+
+/*Footer styling*/
+footer {
+    border: 1px solid;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
 }
-header h1{
-    margin-top: 50px;
-}
+
+    footer p {
+        text-align: left;
+    }
