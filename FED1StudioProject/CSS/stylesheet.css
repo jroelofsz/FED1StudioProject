@@ -18,7 +18,8 @@ body {
 article#aboutUs {
     width: 70%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 4em;
+    padding-right: 15em;
 }
 
     article#aboutUs img {
@@ -78,7 +79,8 @@ section article#companyInfo h2 {
     }
 
     #indexRight h3, #indexRight p {
-        padding: 150px 830px 0px 40px;
+        padding: 4em 33em 0 0;
+        text-align:left;
     }
 
     #indexRight h3 {
@@ -96,15 +98,12 @@ section article#companyInfo h2 {
     padding-top: 100px;
     padding-right: 50px;
     padding-left: 42.7em;*/
-    padding: 100px 50px 0 42.7em
+    padding: 1em 0 0 33em
 }
 
 #indexLeft p {
-    /*padding-top: 15px;
-    padding-bottom:25px;
-    padding-right: 50px;
-    padding-left: 50em;*/
-    padding: 15px 50px 25px 50em;
+    padding-left: 38em;
+    width: 42%;
 }
 
 .clear {
@@ -197,14 +196,14 @@ footer {
 }
 
 #fixAssetClass:hover, #accPayableClass:hover, #cashClass:hover, #taxClass:hover, #auditClass:hover, #budgetingClass:hover {
-    border: 5px solid;
+    border: 4px solid #72a147;
 }
 
 #taxClass, #auditClass, #budgetingClass {
     border: 1px solid;
     width: 25%;
     display: inline-block;
-    margin: 20px;
+    margin: 30px;
     text-align: left;
     height: 550px;
     vertical-align: top;
@@ -224,6 +223,10 @@ footer {
         text-align: center;
     }
 
+    #budgetingClass h3 {
+        font-size: 24px;
+    }
+
 #accPayableClass h3 {
     margin-top: 10px;
     margin-bottom: 12px
@@ -234,11 +237,11 @@ footer {
 }
 
 #taxClass img, #auditClass img, #budgetingClass img {
-    height: 218.5px;
+    height: 175px;
 }
 
 #cashClass img, #fixAssetClass img, #accPayableClass img {
-    height: 218.5px;
+    height: 175px;
 }
 
 .middleAligned {
@@ -246,19 +249,22 @@ footer {
     width: 70%;
     margin: 15px auto;
     margin-top: 120px;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 section article h2.middleAligned {
     margin: 0 auto;
     padding-bottom: 15px;
+    padding-top: 1em;
+    text-decoration: underline;
 }
 
 #cashClass, #fixAssetClass, #accPayableClass {
     border: 1px solid;
     width: 25%;
     display: inline-block;
-    margin: 20px;
-    ;
+    margin: 30px;
     text-align: left;
     height: 550px;
     vertical-align: top;
@@ -271,5 +277,39 @@ section article h2.middleAligned {
     text-align: center;
     margin-top: 50px;
 }
+
+
+.subjectClassTop a, .subjectClassBottom a {
+    color: black;
+    text-decoration: none;
+}
+
 /*#endregion*/
- 
+/*#region styling for classes table*/
+table, tr, td, th {
+    border-bottom: 1px solid #999;
+    border-collapse: collapse;
+}
+table {
+    margin: auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+td {
+    padding: 1em 4em;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+thead {
+    background-color: #ccc;
+}
+thead tr th {
+    padding: 1em;
+}
+/*#endregion*/
