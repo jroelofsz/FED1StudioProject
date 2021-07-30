@@ -72,6 +72,7 @@
     <Content Include="CSS\stylesheet.css" />
     <Content Include="Images\accPayable.jpg" />
     <Content Include="Images\audit.jpg" />
+    <Content Include="Images\background_stock.jpg" />
     <Content Include="Images\buget.jpg" />
     <Content Include="Images\calculator_image.jpg" />
     <Content Include="Images\cashManage.jpg" />

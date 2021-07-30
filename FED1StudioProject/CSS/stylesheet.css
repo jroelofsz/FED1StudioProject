@@ -7,107 +7,89 @@
 
 body {
     font-family: 'Maven Pro', sans-serif;
+    background-image: url(../Images/background_stock.jpg);
+}
+.background {
+    background-color: rgba(255,255,255,.8);
+    width: 70%;
+    margin: 0 auto;
 }
 
 /*#region Styling for index.html*/
-#indexLeft {
-    margin: 0 auto;
-    width: 70%;
+div#indexLeft {
+    text-align: right;
 }
-
-article#aboutUs {
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 4em;
-    padding-right: 15em;
+div#indexLeft p {
+    width: 49%;
+    float: right;
+    margin-bottom: 159px;
+    font-size: 25px;
+    text-align: left;
 }
-
-    article#aboutUs img {
-        float: left;
-        height: 200px;
-        margin-left: 130px;
-    }
-
-#indexLeft img {
+div#indexLeft h3 {
+    width: 49%;
+    float: right;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+div #indexRight h3 {
+    font-size: 50px;
+    width: 49%;
+    text-align: left;
     float: left;
+    margin-bottom: 5px;
+}
+div#indexLeft img {
+    float: left;
+    border: 1px solid black;
     width: 50%;
-    border: .5px solid;
-    border-collapse: collapse;
+    height: auto;
 }
 
-section article#aboutUs h2, section article#aboutUs p {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
-
-section article#aboutUs h2 {
+div #indexRight {
     text-align: left;
-    width: 35%;
-    text-decoration: underline;
-    margin-bottom: 15px;
 }
-
-section article#aboutUs p {
-    text-align: left;
-    margin-right: 15px;
-    padding-left: 50px;
-}
-
-
-section article#companyInfo h2 {
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    font-weight: bold;
-    font-size: 40px;
-    padding-top: 110px;
-}
-
-#indexRight {
-    margin: 0 auto;
-    width: 70%;
-}
-
-    #indexRight img {
-        float: right;
-        width: 50%;
-        border: .5px solid;
-        border-collapse: collapse;
-        margin-left: 1px;
-        border-bottom: 0;
+    div #indexRight p {
+        width: 49%;
+        float: left;
+        font-size: 25px;
+        text-align: left;
     }
-
-    #indexRight h3, #indexRight p {
-        padding: 4em 33em 0 0;
-        text-align:left;
-    }
-
-    #indexRight h3 {
-        padding-bottom: 0;
-    }
-
-    #indexRight p {
-        padding-top: 15px;
-        padding-bottom: 25px;
-    }
-
-
-#indexLeft h3 {
-    /*padding-bottom: 0px;
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-left: 42.7em;*/
-    padding: 1em 0 0 33em
-}
-
-#indexLeft p {
-    padding-left: 38em;
-    width: 42%;
+div #indexRight img {
+    float: right;
+    border: 1px solid black;
+    border-bottom: none;
+    width: 49.8%;
+    height: auto;
 }
 
 .clear {
     clear: both;
+}
+section article h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+article#aboutUs img {
+    float: left;
+    width: 10%;
+    border: 1px solid black;
+    margin: 15px;
+    margin-top: 120px;
+    vertical-align: central;
+}
+article#aboutUs p {
+    width: 75%;
+    font-size: 25px;
+    text-align:left;
+    margin: 0 auto;
+
+}
+section article#aboutUs h2 {
+    text-align: left;
 }
 /*#endregion*//*Complete!*/
 /*#region Styling for navigation bar*/
@@ -136,6 +118,7 @@ nav {
     border-collapse: collapse;
     width: 70%;
     margin: 0 auto;
+    background-color: rgba(255,255,255,1)   
 }
 /*#endregion*//*Complete!*/
 /*#region Styling for header*/
@@ -143,6 +126,7 @@ header aside, footer aside {
     width: 5%;
     float: right;
     margin: 5px 10px 5px 5px;
+    background-color: rgba(255,255,255,1)
 }
 .selected {
     background-color: #ddd;
@@ -150,10 +134,10 @@ header aside, footer aside {
     border-radius: 10px;
     margin: 0 10px;
 }
-    header aside a, footer aside a {
-        color: black;
-        text-decoration: none;
-    }
+header aside a, footer aside a {
+    color: black;
+    text-decoration: none;
+}
 header img {
     width: 8%;
     float: left;
@@ -163,6 +147,7 @@ header {
     border: 1px solid;
     width: 70%;
     margin: 0 auto;
+    background-color: rgba(255,255,255,1)
 }
 
     header h1, header p {
@@ -181,16 +166,18 @@ footer {
     width: 70%;
     margin: 0 auto;
     padding: 30px 0;
+    background-color: rgba(255,255,255,1)
 }
 
     footer p {
         text-align: left;
+        padding-left: 2em;
     }
 /*#endregion*/ /*Complete!*/
 /*#region class tiles*/
 
 .subjectClassTop {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -203,6 +190,7 @@ footer {
     border: 1px solid;
     width: 25%;
     display: inline-block;
+    background-color: white;
     margin: 30px;
     text-align: left;
     height: 550px;
@@ -237,16 +225,18 @@ footer {
 }
 
 #taxClass img, #auditClass img, #budgetingClass img {
-    height: 175px;
+    width: 100%;
+    height: auto;
 }
 
 #cashClass img, #fixAssetClass img, #accPayableClass img {
-    height: 175px;
+    width: 100%;
+    height: auto;
 }
 
 .middleAligned {
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin: 15px auto;
     margin-top: 120px;
     font-weight: 700;
@@ -264,6 +254,7 @@ section article h2.middleAligned {
     border: 1px solid;
     width: 25%;
     display: inline-block;
+    background-color: white;
     margin: 30px;
     text-align: left;
     height: 550px;
@@ -271,12 +262,9 @@ section article h2.middleAligned {
 }
 
 .subjectClassBottom {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
-    height: 500px;
     text-align: center;
-    background-color: rgba(255,255,255,1);
-    margin-top: 50px;
 }
 
 
@@ -295,8 +283,9 @@ table, tr, td, th {
 }
 table {
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     text-align: center;
+    background-color: rgba(255,255,255,.7);
 }
 td {
     padding: 1em 4em;
@@ -316,3 +305,78 @@ thead tr th {
     padding: 1em;
 }
 /*#endregion*/ /*Complete!*/
+/*#region contact styling*/
+.contactInfo {
+    margin: 0 auto;
+    width: 30%;
+    padding: 35px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    
+}
+.contactInfo h2 {
+    font-size: 35px;
+    text-align:center;
+}
+    .contactInfo p {
+        font-size: 22px;
+        text-align: left;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        margin: 15px;
+        padding: 5px;
+    }
+
+
+/*#endregion*/
+/*#region TEAM STYLING*/
+div.background article section.teams img {
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 20px;
+    width: 10%;
+    
+}
+div.background article section.teams p {
+    margin: 50px 0;
+    font-size: 26px;
+}
+div.background article section.teams h2 {
+    margin-top: 0;
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+article aside {
+    width: 20%;
+    float: right;
+    height: 100%;
+}
+article section.teams {
+    width: 80%;
+    border-right: dashed 1px black;
+}
+
+article aside a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+}
+article aside li {
+    list-style: none;
+    padding: 15px 0;
+}
+article aside a:hover {
+    color: #72A147;
+    text-decoration: underline;
+}
+article aside h3 {
+    font-size: 40px
+}
+/*#endregion*/
