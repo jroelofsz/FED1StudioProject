@@ -350,7 +350,7 @@ div.background article section.teams img {
     
 }
 div.background article section.teams p {
-    margin: 3em 0;
+    margin: 0;
     font-size: 1em;
 }
 div.background article section.teams h2 {
@@ -396,5 +396,8 @@ article aside ul {
 article section.teams p strong {
     font-size: 1.2em;
     
+}
+article section.teams .person {
+    margin: 8em auto;
 }
 /*#endregion*/
