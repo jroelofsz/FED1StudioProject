@@ -193,7 +193,7 @@ footer {
 }
 
 #fixAssetClass:hover, #accPayableClass:hover, #cashClass:hover, #taxClass:hover, #auditClass:hover, #budgetingClass:hover {
-    border: 2px dashed #72a147;
+    border: 1px dashed #72a147;
 }
 
 #taxClass, #auditClass, #budgetingClass {
